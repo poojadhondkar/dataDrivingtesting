@@ -12,7 +12,7 @@ import testingPages.Setup;
 public class TestLoginPage extends Setup{
 	
 	public  LoginPage login;
-	public ReadData read;
+	public  ReadData read;
 	
 	
 	 @Test  (dataProvider = "login")

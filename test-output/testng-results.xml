@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-25T14:41:23 AWST" name="Suite" finished-at="2024-06-25T14:41:33 AWST" duration-ms="9434">
+  <suite started-at="2024-06-30T15:22:24 AWST" name="Suite" finished-at="2024-06-30T15:22:40 AWST" duration-ms="16669">
     <groups>
     </groups>
-    <test started-at="2024-06-25T14:41:23 AWST" name="Test" finished-at="2024-06-25T14:41:33 AWST" duration-ms="9434">
+    <test started-at="2024-06-30T15:22:24 AWST" name="Test" finished-at="2024-06-30T15:22:40 AWST" duration-ms="16669">
       <class name="testClasses.TestLoginPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testClasses.TestLoginPage@25641d39]" started-at="2024-06-25T14:41:24 AWST" name="setup" finished-at="2024-06-25T14:41:28 AWST" duration-ms="3991" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testClasses.TestLoginPage@b9b00e0]" started-at="2024-06-30T15:22:25 AWST" name="setup" finished-at="2024-06-30T15:22:32 AWST" duration-ms="7197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testClasses.TestLoginPage@25641d39]" started-at="2024-06-25T14:41:28 AWST" name="login" data-provider="login" finished-at="2024-06-25T14:41:29 AWST" duration-ms="503" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testClasses.TestLoginPage@b9b00e0]" started-at="2024-06-30T15:22:32 AWST" name="login" data-provider="login" finished-at="2024-06-30T15:22:33 AWST" duration-ms="681" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testClasses.TestLoginPage@25641d39]" started-at="2024-06-25T14:41:29 AWST" name="setup" finished-at="2024-06-25T14:41:32 AWST" duration-ms="3328" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testClasses.TestLoginPage@b9b00e0]" started-at="2024-06-30T15:22:33 AWST" name="teardown" finished-at="2024-06-30T15:22:34 AWST" duration-ms="1217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testClasses.TestLoginPage@b9b00e0]" started-at="2024-06-30T15:22:34 AWST" name="setup" finished-at="2024-06-30T15:22:39 AWST" duration-ms="4245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testClasses.TestLoginPage@25641d39]" started-at="2024-06-25T14:41:32 AWST" name="login" data-provider="login" finished-at="2024-06-25T14:41:33 AWST" duration-ms="472" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testClasses.TestLoginPage@b9b00e0]" started-at="2024-06-30T15:22:39 AWST" name="login" data-provider="login" finished-at="2024-06-30T15:22:39 AWST" duration-ms="533" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,6 +51,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testClasses.TestLoginPage@b9b00e0]" started-at="2024-06-30T15:22:39 AWST" name="teardown" finished-at="2024-06-30T15:22:40 AWST" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- testClasses.TestLoginPage -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
